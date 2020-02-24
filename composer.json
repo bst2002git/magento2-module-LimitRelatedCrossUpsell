@@ -1,0 +1,25 @@
+{
+  "name": "idec/magento2-module-LimitRelatedCrossUpsells",
+  "description": "Limit the number of Related, Cross-sell and Upsell products shown on the product page and in the cart",
+  "require": {
+    "magento/module-checkout": "100.3.*",
+    "magento/module-catalog": "103.0.*"
+  },
+  "repositories": {
+    "magento": {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  },
+  "type": "magento2-module",
+	"version": "0.0.1",
+  "license": "OSL-3.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "IDEC\\LimitRelatedCrossUpsell\\": ""
+    }
+  }
+}
